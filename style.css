@@ -33,6 +33,10 @@ body {
     font-size: 14px;
 }
 
+p {
+    cursor: pointer;
+}
+
 a {
     color: #0071e3;
     text-decoration: none;

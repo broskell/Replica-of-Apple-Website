@@ -20,6 +20,7 @@ body {
 #apple_logo:hover {
    cursor: pointer; 
    filter: brightness(20);
+   transition: 0.3s;
 }
 
 #offer {

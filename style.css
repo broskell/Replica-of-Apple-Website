@@ -14,8 +14,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#apple_logo:hover {
+   cursor: pointer; 
+   filter: brightness(20);
 }
 
 #offer {

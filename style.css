@@ -9,7 +9,7 @@ body {
     background-color: #1c1b1b;
     height: 40px;
     color: lightgray;
-    font-size: smaller;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,18 +18,19 @@ body {
 }
 
 #apple_logo:hover {
-   cursor: pointer; 
-   filter: brightness(20);
-   transition: 0.3s;
+    cursor: pointer; 
+    transition: all 0.5s;
+    filter: brightness(20);
 }
 
 #offer {
     background-color: #1d1d1f;
-    height: 15px;
+    height: 10px;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: 14px;
 }
 
 #macbook_pro_14 {

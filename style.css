@@ -76,7 +76,7 @@ body {
 .learn:hover {
     background-color: white;
     color: black;
-    transition: 0.3s;
+    transition: 0.3;
     cursor: pointer;
 }
 
@@ -128,4 +128,15 @@ body {
     color: gray;
     text-align: center;
     padding: 20px;
+}
+
+#greeting_air {
+    display: flex;
+    background-color: white; 
+    margin: auto; 
+    padding: 15px;
+}
+
+#greeting_air div {
+    gap: 15px white;
 }

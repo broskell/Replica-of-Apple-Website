@@ -19,11 +19,11 @@ body {
 
 #top_bar p:hover {
     filter: brightness(30);
-    font-size: medium;
-    transition: 0.6s;
+    font-size: small;
+    transition: 0.5s;
 }
 
-#apple_logo:hover {
+.logo:hover {
     cursor: pointer; 
     transition: all 0.5s;
     filter: brightness(20);
@@ -150,14 +150,16 @@ a:hover {
     padding: 20px;
 }
 
-#greeting_air {
+#greeting_air div {
     display: flex;
+    flex-wrap: wrap;
     background-color: white; 
     margin: auto; 
     gap: 10px white;
-    padding: 10px;
+    padding: 5px;
 }
 
-#greeting_air div {
-    gap: 15px white;
+#greeting_air hr {
+    border: none;
+    background-color: white; 
 }

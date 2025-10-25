@@ -17,6 +17,12 @@ body {
     padding-right: 250px;
 }
 
+#top_bar p:hover {
+    filter: brightness(30);
+    font-size: medium;
+    transition: 0.6s;
+}
+
 #apple_logo:hover {
     cursor: pointer; 
     transition: all 0.5s;
@@ -148,7 +154,8 @@ a:hover {
     display: flex;
     background-color: white; 
     margin: auto; 
-    padding: 15px;
+    gap: 10px white;
+    padding: 10px;
 }
 
 #greeting_air div {

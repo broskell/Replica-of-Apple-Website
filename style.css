@@ -219,3 +219,124 @@ a:hover {
     color: white;
     transition: 1s;
 }
+
+#pods_learn_more {
+    position: absolute; 
+    top: 2900px;
+    left: 280px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#pods_learn_more:hover {
+    background-color: white; 
+    color: black;
+    transition: 1s;
+}
+
+#pods_buy {
+    position: absolute; 
+    top: 2900px;
+    left: 400px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#pods_buy:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+#watch_learn_more {
+    position: absolute; 
+    top: 2875px;
+    left: 1035px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#watch_learn_more:hover {
+    background-color: white; 
+    color: black;
+    transition: 1s;
+}
+
+#watch_buy {
+    position: absolute;
+    top: 2875px;
+    left: 1155px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#watch_buy:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+#mac_learn_more {
+    position: absolute; 
+    top: 3515px;
+    left: 280px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#mac_learn_more:hover {
+    background-color: white; 
+    color: black;
+    transition: 1s;
+}
+
+#mac_buy {
+    position: absolute; 
+    top: 3515px;
+    left: 400px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#mac_buy:hover {
+    background-color: rgba(135, 206, 235, 0.7);
+    color: white;
+    border: none;
+    transition: 1s;
+}
+
+#trade_estimate {
+    position: absolute;
+    top: 3515px;
+    left: 1069px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#trade_estimate:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}

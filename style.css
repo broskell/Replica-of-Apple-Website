@@ -163,3 +163,59 @@ a:hover {
     border: none;
     background-color: white; 
 }
+
+.image_container {
+    position: relative;
+    display: inline-block;
+}
+
+#shop_now {
+    position: absolute; 
+    top: 2650px;
+    left: 325px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#shop_now:hover {
+    background-color: white; 
+    color: black;
+    transition: 1s;
+}
+
+#air_learn_more {
+    position: absolute; 
+    top: 2300px;
+    left: 1035px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#air_learn_more:hover {
+    background-color: white; 
+    color: black;
+    transition: 1s;
+}
+
+#air_buy {
+    position: absolute;
+    top: 2300px;
+    left: 1155px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#air_buy:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
